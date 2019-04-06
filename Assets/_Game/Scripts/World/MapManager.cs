@@ -10,7 +10,7 @@ public class MapManager : Singleton<MapManager>
     [System.NonSerialized]
     public GridMap currentMap;
 
-    void Start()
+    void Awake()
     {
         //Random Map
         int mapToLoad = Random.Range(0, gridMaps.Length);

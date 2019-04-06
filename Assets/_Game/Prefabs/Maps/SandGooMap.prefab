@@ -2173,24 +2173,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MapName: Sand And Goo
   grid:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3446928126364265311}
+  - {fileID: 8538228731794606088}
+  - {fileID: 8120876315448071533}
+  - {fileID: 4473685166787199846}
+  - {fileID: 509639099962620856}
+  - {fileID: 2347551680688628801}
+  - {fileID: 3383917705556872586}
+  - {fileID: 5793751379539013301}
+  - {fileID: 6480467238591634576}
+  - {fileID: 755611421529431638}
+  - {fileID: 1439242610378822720}
+  - {fileID: 3960334887983002451}
+  - {fileID: 736675311873147636}
+  - {fileID: 5124806114525735543}
+  - {fileID: 4822304503988343709}
+  - {fileID: 7516206494854920787}
+  - {fileID: 6742354846520249537}
+  - {fileID: 6381023822324364175}
 --- !u!1 &3383917705556872586
 GameObject:
   m_ObjectHideFlags: 0

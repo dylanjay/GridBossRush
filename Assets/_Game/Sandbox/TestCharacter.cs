@@ -26,20 +26,19 @@ public class TestCharacter : MonoBehaviour
             if(timer > 1f)
             {
                 timer = 0f;
-                
-                row++;
-                if (row >= GridMap.HEIGHT)
-                {
-                    row = 0;
-                    column++;
-                    if (column >= GridMap.WIDTH)
-                    {
-                        column = 0;
 
+                column++;
+                if (column >= GridMap.WIDTH)
+                {
+                    column = 0;
+                    row++;
+                    if (row >= GridMap.HEIGHT)
+                    {
+                        row = 0;
                     }
                 }
 
-                transform.position = MapManager.instance.currentMap.GetTilePosition(column, row);
+                transform.position = MapManager.instance.currentMap.GetTilePosition(row, column);
             }
         }
     }
