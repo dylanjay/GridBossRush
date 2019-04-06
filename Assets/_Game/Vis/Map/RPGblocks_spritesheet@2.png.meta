@@ -1,0 +1,2310 @@
+fileFormatVersion: 2
+guid: 8cb4b827e0aea634f84cc1c83e1c42d2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: box.png
+    21300002: box_treasure.png
+    21300004: box_wide.png
+    21300006: cart.png
+    21300008: cart_horse.png
+    21300010: cart_top.png
+    21300012: character_horse.png
+    21300014: character_man.png
+    21300016: character_wizard.png
+    21300018: character_woman.png
+    21300020: detail_mud.png
+    21300022: detail_snow.png
+    21300024: detail_window.png
+    21300026: detail_windowBlue.png
+    21300028: detail_windowCastle.png
+    21300030: detail_windowRed.png
+    21300032: detail_windowSlit.png
+    21300034: door.png
+    21300036: door_glass.png
+    21300038: door_open.png
+    21300040: fence_double.png
+    21300042: fence_doubleGate.png
+    21300044: fence_single.png
+    21300046: fence_singleGate.png
+    21300048: foliageBush_large.png
+    21300050: foliageBush_small.png
+    21300052: foliageTree_green.png
+    21300054: foliageTree_orange.png
+    21300056: foliageTree_red.png
+    21300058: gravel_brown.png
+    21300060: gravel_grey.png
+    21300062: ladder_large.png
+    21300064: ladder_small.png
+    21300066: market_roofBlue.png
+    21300068: market_roofRed.png
+    21300070: market_stallBlue.png
+    21300072: market_stallRed.png
+    21300074: tileBridge.png
+    21300076: tileBuilding_frame.png
+    21300078: tileBuilding_roofBlue.png
+    21300080: tileBuilding_roofBluePoint.png
+    21300082: tileBuilding_roofBlueSide.png
+    21300084: tileBuilding_roofRed.png
+    21300086: tileBuilding_roofRedPoint.png
+    21300088: tileBuilding_roofRedSide.png
+    21300090: tileBuilding_sand.png
+    21300092: tileBuilding_stone.png
+    21300094: tileCastle.png
+    21300096: tileCastle_gate.png
+    21300098: tileCastle_stairs.png
+    21300100: tileCastle_stairsLeft.png
+    21300102: tileCastle_stairsRight.png
+    21300104: tileCastle_top.png
+    21300106: tileCastle_topRoof.png
+    21300108: tileDirt.png
+    21300110: tileDirt_slope.png
+    21300112: tileDirt_slopeLeft.png
+    21300114: tileDirt_slopeLeftRound.png
+    21300116: tileDirt_slopeRight.png
+    21300118: tileDirt_slopeRightRound.png
+    21300120: tileGoo.png
+    21300122: tileGoo_slope.png
+    21300124: tileGoo_slopeLeft.png
+    21300126: tileGoo_slopeLeftRound.png
+    21300128: tileGoo_slopeRight.png
+    21300130: tileGoo_slopeRightRound.png
+    21300132: tileGrass.png
+    21300134: tileGrass_slope.png
+    21300136: tileGrass_slopeLeft.png
+    21300138: tileGrass_slopeLeftRound.png
+    21300140: tileGrass_slopeRight.png
+    21300142: tileGrass_slopeRightRound.png
+    21300144: tileLava_1.png
+    21300146: tileLava_2.png
+    21300148: tileLava_3.png
+    21300150: tileLava_4.png
+    21300152: tileSand.png
+    21300154: tileSand_slope.png
+    21300156: tileSand_slopeLeft.png
+    21300158: tileSand_slopeLeftRound.png
+    21300160: tileSand_slopeRight.png
+    21300162: tileSand_slopeRightRound.png
+    21300164: tileSnow.png
+    21300166: tileSnow_slope.png
+    21300168: tileSnow_slopeLeft.png
+    21300170: tileSnow_slopeLeftRound.png
+    21300172: tileSnow_slopeRight.png
+    21300174: tileSnow_slopeRightRound.png
+    21300176: tileStone.png
+    21300178: tileStone_slope.png
+    21300180: tileStone_slopeLeft.png
+    21300182: tileStone_slopeLeftRound.png
+    21300184: tileStone_slopeRight.png
+    21300186: tileStone_slopeRightRound.png
+    21300188: tileWater_1.png
+    21300190: tileWater_2.png
+    21300192: tileWater_3.png
+    21300194: tileWater_4.png
+    21300196: tileWood.png
+    21300198: tileWood_flat.png
+    21300200: box
+    21300202: box_treasure
+    21300204: box_wide
+    21300206: cart
+    21300208: cart_horse
+    21300210: cart_top
+    21300212: character_horse
+    21300214: character_man
+    21300216: character_wizard
+    21300218: character_woman
+    21300220: detail_mud
+    21300222: detail_snow
+    21300224: detail_window
+    21300226: detail_windowBlue
+    21300228: detail_windowCastle
+    21300230: detail_windowRed
+    21300232: detail_windowSlit
+    21300234: door
+    21300236: door_glass
+    21300238: door_open
+    21300240: fence_double
+    21300242: fence_doubleGate
+    21300244: fence_single
+    21300246: fence_singleGate
+    21300248: foliageBush_large
+    21300250: foliageBush_small
+    21300252: foliageTree_green
+    21300254: foliageTree_orange
+    21300256: foliageTree_red
+    21300258: gravel_brown
+    21300260: gravel_grey
+    21300262: ladder_large
+    21300264: ladder_small
+    21300266: market_roofBlue
+    21300268: market_roofRed
+    21300270: market_stallBlue
+    21300272: market_stallRed
+    21300274: tileBridge
+    21300276: tileBuilding_frame
+    21300278: tileBuilding_roofBlue
+    21300280: tileBuilding_roofBluePoint
+    21300282: tileBuilding_roofBlueSide
+    21300284: tileBuilding_roofRed
+    21300286: tileBuilding_roofRedPoint
+    21300288: tileBuilding_roofRedSide
+    21300290: tileBuilding_sand
+    21300292: tileBuilding_stone
+    21300294: tileCastle
+    21300296: tileCastle_gate
+    21300298: tileCastle_stairs
+    21300300: tileCastle_stairsLeft
+    21300302: tileCastle_stairsRight
+    21300304: tileCastle_top
+    21300306: tileCastle_topRoof
+    21300308: tileDirt
+    21300310: tileDirt_slope
+    21300312: tileDirt_slopeLeft
+    21300314: tileDirt_slopeLeftRound
+    21300316: tileDirt_slopeRight
+    21300318: tileDirt_slopeRightRound
+    21300320: tileGoo
+    21300322: tileGoo_slope
+    21300324: tileGoo_slopeLeft
+    21300326: tileGoo_slopeLeftRound
+    21300328: tileGoo_slopeRight
+    21300330: tileGoo_slopeRightRound
+    21300332: tileGrass
+    21300334: tileGrass_slope
+    21300336: tileGrass_slopeLeft
+    21300338: tileGrass_slopeLeftRound
+    21300340: tileGrass_slopeRight
+    21300342: tileGrass_slopeRightRound
+    21300344: tileLava_1
+    21300346: tileLava_2
+    21300348: tileLava_3
+    21300350: tileLava_4
+    21300352: tileSand
+    21300354: tileSand_slope
+    21300356: tileSand_slopeLeft
+    21300358: tileSand_slopeLeftRound
+    21300360: tileSand_slopeRight
+    21300362: tileSand_slopeRightRound
+    21300364: tileSnow
+    21300366: tileSnow_slope
+    21300368: tileSnow_slopeLeft
+    21300370: tileSnow_slopeLeftRound
+    21300372: tileSnow_slopeRight
+    21300374: tileSnow_slopeRightRound
+    21300376: tileStone
+    21300378: tileStone_slope
+    21300380: tileStone_slopeLeft
+    21300382: tileStone_slopeLeftRound
+    21300384: tileStone_slopeRight
+    21300386: tileStone_slopeRightRound
+    21300388: tileWater_1
+    21300390: tileWater_2
+    21300392: tileWater_3
+    21300394: tileWater_4
+    21300396: tileWood
+    21300398: tileWood_flat
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: box
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 34
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ef06d5e63894044acc565a4c9e52f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box_treasure
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 55
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ceebba4f7a09e45bf0b6fc2180c66f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box_wide
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 271
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf67650e33e07f428b3d65d3058cae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cart
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 367
+        width: 80
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a5a1d5ee874394fac6c39f12da882c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cart_horse
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 25
+        width: 128
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfaa4419f91f304392c15b668b2bace
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cart_top
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 941
+        width: 116
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54025e8b833ddcf479a3507ac4dc0b58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_horse
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 111
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db90306cacbae2b41ab604d15d8ff522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_man
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 487
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834597195704f174798a0dda5d2c8a9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_wizard
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 987
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3def81ac3d51045b11ed54b25bc74e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_woman
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 38
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e5fbfafe98e714fb63a25d83b38613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detail_mud
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 605
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a04b41b780f50499211c726e66f677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detail_snow
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 661
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca55ceb7deff9749b2bbb23696c0220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detail_window
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9254c9521cb804581e8868341aeb31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detail_windowBlue
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 327
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a9a82a07931984eb6365981d13909d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detail_windowCastle
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 717
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1078aedba52790f4297c40b8f88dbddc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detail_windowRed
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 421
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c317a66c424bd418f040dee22fe9e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detail_windowSlit
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1133
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b897edbf5d9084083247a73a6dcc31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 489
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f51bee6ecd22a4680b7402f9791dab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_glass
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 809
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0162c183df4d340bd3c3643f8279cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_open
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 765
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29d417e421ab1847b7a62cbdae4d81d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_double
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1085
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e68a80011f86046934be39cd3fddfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_doubleGate
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1133
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3caaf6609894b41a293890560f01e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_single
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1037
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c8a7650930cb345827ed576ca5b2cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_singleGate
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ffa1d1c0aae394dac4a99f0f8d5cc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foliageBush_large
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabaa4e6a432c2446aa778ec2c916334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foliageBush_small
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbb8f81230d40d4ea09f367d8e7d9ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foliageTree_green
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 281
+        width: 58
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2db3367c407e5429fb08ac9dc0a6b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foliageTree_orange
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 90
+        width: 66
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf7ffdccc4b9d845ab19fef7543efa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foliageTree_red
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 537
+        width: 54
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de019d5872091042975954cedcdf2da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravel_brown
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 461
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec9a72e7577d1545ae4a4a64fcfb189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gravel_grey
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 533
+        width: 93
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0389821ead88b7f4b929311eedf0ddd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder_large
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 179
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84752088b4912f4fabd68817d311c93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder_small
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 853
+        width: 40
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfe2a3aa059dbd4dad6b00d8cef17e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_roofBlue
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 833
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8e338eab96f914dbdcf4e794fb0ce4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_roofRed
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 17
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd755a110c6555c4fa11df4a97c444f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_stallBlue
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 829
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bc5bbfed7041e4c8160e742546ccd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: market_stallRed
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 717
+        width: 104
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6090cd8d310404140bd411058a07b4c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBridge
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 261
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23a02b199313fa4e9ff41b1a50d1397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_frame
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 373
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bcf762d89727d42b6dbc78df570aab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_roofBlue
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 113
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273c10180fe8bbb44a21756acfaa3eac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_roofBluePoint
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 521
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ebdd5d7e074b048a9b6c72063b546a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_roofBlueSide
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 649
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a903acd8d8f68e4e8945c5df207ec47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_roofRed
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 777
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa857e069ef00194b917875bb730d687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_roofRedPoint
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 925
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bdb2cfd29ebd2409023913b79ea236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_roofRedSide
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1053
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b94baa866bd53a429087ebf7d0517b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_sand
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 93
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9338e562d18615d4ba292a37e2f21d4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileBuilding_stone
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 241
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ea363e4d4155a48a82ebccba712594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileCastle
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 389
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15664364a2c2bd94a922c41430767b45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileCastle_gate
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 537
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447fa30d3bb969a4db339c16f3b84899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileCastle_stairs
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 685
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1aec5edef95b149b4395f6da77583b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileCastle_stairsLeft
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 929
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da3e6310b1b9a3459ea84eff0fe471e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileCastle_stairsRight
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1033
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546d5baa4f1cd934b8d938a5593bea36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileCastle_top
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1077
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6086d227f5bae46b3e1873a338df53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileCastle_topRoof
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 49
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197e6e2a9bb11744ca26617e93cdf3eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileDirt
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 153
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef9f20210f32a042af10027aa15f0aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileDirt_slope
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 301
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547f7cbb1c54a1e4087fefe19d4c58ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileDirt_slopeLeft
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 449
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9cc8c0bf1a2744db59907b175145be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileDirt_slopeLeftRound
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 593
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1594192f2de0d31409fa645705e45114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileDirt_slopeRight
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 741
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da68f4095752ce4685226cb176de7d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileDirt_slopeRightRound
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 885
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c00cd98c148a7c4aa9a4e9afc3558af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGoo
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1033
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4d363fc41451a43ac4ce16ea7b0321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGoo_slope
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d120be0e7655ee84ca2b03ef8f66429b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGoo_slopeLeft
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 153
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e15f84d265c62a4c807695575846d41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGoo_slopeLeftRound
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 297
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593683719c7f80247ad859e0876ab049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGoo_slopeRight
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 445
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bc3b6f57d5378418bef3cbf9c70543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGoo_slopeRightRound
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 589
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089e23a37b59ca045993bc02bfc177cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGrass
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 737
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a403b8914bbd34ba337e6f15ff50b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGrass_slope
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 885
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc24478d10434e40938bd3dabca5360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGrass_slopeLeft
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2a84d4a3052e94abe81392a8a95e2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGrass_slopeLeftRound
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1033
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cfb85cb2722d44394cb89db063246a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGrass_slopeRight
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 146
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2d896636a59d847bf582434382fa6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileGrass_slopeRightRound
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 290
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888139a286ed3e44cbe0f7ff67484ad3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileLava_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 438
+        width: 128
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f391ceaf33eb741833e20a14f06077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileLava_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 587
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4e24f542f6f474991a2c26b555a5b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileLava_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 735
+        width: 128
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc2d87736bf93245a28446c6b4d884c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileLava_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 884
+        width: 128
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29846fe9eacf68645bc706feb0abab5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSand
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1033
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ef675fe56412340bdba97d9c83a5e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSand_slope
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4607c3cdb0143884d831e8a78f1bf4a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSand_slopeLeft
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 157
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c1a3a0cce007144abe91271face132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSand_slopeLeftRound
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 301
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2023e160f422f43af41f2026f076d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSand_slopeRight
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 449
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e01c03772be904fa82d862c552c796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSand_slopeRightRound
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 593
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50fed2c2e1735248a031c15361e6e23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSnow
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 741
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b99be77e7e79249a8d0cefba0b0a76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSnow_slope
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 889
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a7eee444bba0e49ba9d89f1d0be61d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSnow_slopeLeft
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1037
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6943c6239e1bff34a9d3a5056d1233f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSnow_slopeLeftRound
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 9
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271bf14f60aa85841859eb3eb118e8ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSnow_slopeRight
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 157
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe123fec6e8b52a4ea72220582564f40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileSnow_slopeRightRound
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 301
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01204e40f854554d9133136d93ccb01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileStone
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 449
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b31d33c250577448ad78c843e138cfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileStone_slope
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 597
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ae0da5bfc3523498b58f2ec816d207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileStone_slopeLeft
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 745
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b3239bc86959847b48555de71674e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileStone_slopeLeftRound
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 889
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d85b187dd03c9a4ea2810dafa4f8f0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileStone_slopeRight
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1037
+        width: 128
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba6a54ae893e594d8e7e8426e6e27e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileStone_slopeRightRound
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad969450a93e0334e8348c4c2fb1b6d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileWater_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 128
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545e80f692566bd49b0417adc86c23ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileWater_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abbcdeac19ab5240a720448a0a0a4af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileWater_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 481
+        width: 128
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5291c43c37cb64645bdabed49ad9ce7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileWater_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 128
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0d1d6bbe24cbf4386f79386346aacc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileWood
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 779
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c027e508ad7d74ebd3b1a953a3b9a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileWood_flat
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 927
+        width: 128
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed60b42dc85fa644e89fe16f727c3f9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2c3e89f44cbdbaf4586e1d8f7f2cad8e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
