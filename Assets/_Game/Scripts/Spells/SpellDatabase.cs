@@ -9,6 +9,11 @@ public class SpellDatabase : Singleton<SpellDatabase>
 
     Dictionary<string, Spell> spellDict = new Dictionary<string, Spell>();
 
+    void Start()
+    {
+        FillDict();
+    }
+
     void FillDict()
     {
         if (spellList == null)
@@ -17,23 +22,19 @@ public class SpellDatabase : Singleton<SpellDatabase>
             return;
         }
         spellDict.Clear();
+        Debug.Log("Spells");
         for (int i = 0; i < spellList.spells.Count; i++)
         {
-            spellDict.Add(spellList.spells[i].name.ToLower(), spellList.spells[i]);
+            spellDict.Add(spellList.spells[i].spellName.ToLower(), spellList.spells[i]);
+            TWDebug.Log(spellList.spells[i].name, ":", spellList.spells[i].spellName.ToLower());
         }
     }
 
     public Spell Get(string name)
     {
-        if (spellDict.Count != spellList.spells.Count)
-        {
-            FillDict();
-        }
-
         name = name.ToLower();
         if (!spellDict.ContainsKey(name))
         {
-            Debug.LogError("Spell does not exist in database");
             return null;
         }
 

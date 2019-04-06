@@ -1,36 +1,45 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 
-[RequireComponent(typeof(InputField))]
 public class Console : MonoBehaviour
 {
-    InputField inputField;
+    [SerializeField]
+    Text textUI;
 
-    void Awake()
+    void Update()
     {
-        inputField = GetComponent<InputField>();
+        string inputString = Input.inputString;
+        for (int i = 0; i < inputString.Length; i++)
+        {
+            char c = inputString[i];
+            //end of command characters
+            if (c == ' ' || c == '\t' || c == '\n' || c == '\r')
+            {
+                CastSpell();
+                textUI.text = string.Empty;
+            }
+            else if (c == '\b' && textUI.text.Length > 0)
+            {
+                string newString = textUI.text.Remove(textUI.text.Length - 1);
+                textUI.text = newString;
+            }
+            else if ((c >= 'a' && c <= 'z') ||
+                     (c >= 'A' && c <= 'Z') ||
+                     (c >= '0' && c <= '9'))
+            {
+                textUI.text += c;
+            }
+        }
     }
 
-    void Start()
+    void CastSpell()
     {
-        inputField.Select();
-        inputField.ActivateInputField();
-    }
-
-    public void Input()
-    {
-        string spellName = inputField.text;
+        string spellName = textUI.text;
         Spell spell = SpellDatabase.instance.Get(spellName);
         if (spell != null)
         {
-            TWDebug.Log("Cast", spellName);
+            TWDebug.Log("Cast", spell.name);
             spell.Activate();
         }
-        inputField.text = string.Empty;
-        inputField.Select();
-        inputField.ActivateInputField();
     }
 }

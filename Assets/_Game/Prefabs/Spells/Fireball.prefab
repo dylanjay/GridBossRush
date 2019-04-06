@@ -43,4 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70aaee3727407854a949fa42b53ed13a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fire
+  spellName: fire

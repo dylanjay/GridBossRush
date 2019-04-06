@@ -2,6 +2,6 @@
 
 public abstract class Spell : MonoBehaviour
 {
-    public new string name;
+    public string spellName;
     public abstract void Activate();
 }

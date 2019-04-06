@@ -1,7 +1,9 @@
-﻿public class Fireball : Spell
+﻿using UnityEngine;
+
+public class Fireball : Spell
 {
     public override void Activate()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("TODO");
     }
 }
