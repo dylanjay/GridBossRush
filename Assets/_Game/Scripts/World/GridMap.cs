@@ -26,22 +26,22 @@ public class GridMap : MonoBehaviour
         
     //}
 
-    public Transform GetTileTransform(/*Side side, */int row, int column)
+    public Transform GetTileTransform(/*Side side, */int column, int row)
     {
         int index = Convert2Dto1D(row, column);
         return /*side == Side.Left ? */grid[index].transform;// : gridRight[index].transform;
     }
 
-    public Vector3 GetTilePosition(/*Side side, */int row, int column)
+    public Vector3 GetTilePosition(/*Side side, */int column, int row)
     {
         int index = Convert2Dto1D(row, column);
         return /*side == Side.Left ? */grid[index].transform.position;// : gridRight[index].transform.position;
     }
 
-    int Convert2Dto1D(int row, int column)
+    int Convert2Dto1D(int column, int row)
     {
         row = Mathf.Clamp(row, 0, HEIGHT - 1);
         column = Mathf.Clamp(column, 0, WIDTH - 1);
-        return row * WIDTH + column;
+        return column * WIDTH + row;
     }
 }

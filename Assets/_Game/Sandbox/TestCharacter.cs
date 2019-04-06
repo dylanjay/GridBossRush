@@ -10,13 +10,13 @@ public class TestCharacter : MonoBehaviour
     {
         yield return null;
         moving = true;
-        //transform.position = MapManager.instance.currentMap.GetTilePosition(0, 0);
+        transform.position = MapManager.instance.currentMap.GetTilePosition(0, 0);
     }
 
     float timer = 1f;
 
-    public int row = 0;
-    public int column = 0;
+    public int column = 0; //X
+    public int row = 0; //Y
 
     void Update()
     {
@@ -26,7 +26,7 @@ public class TestCharacter : MonoBehaviour
             if(timer > 1f)
             {
                 timer = 0f;
-                transform.position = MapManager.instance.currentMap.GetTilePosition(row, column);
+                
                 row++;
                 if (row >= GridMap.HEIGHT)
                 {
@@ -38,6 +38,8 @@ public class TestCharacter : MonoBehaviour
 
                     }
                 }
+
+                transform.position = MapManager.instance.currentMap.GetTilePosition(column, row);
             }
         }
     }
