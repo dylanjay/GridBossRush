@@ -9,7 +9,14 @@ public static class TWDebug
         System.Text.StringBuilder sb = new System.Text.StringBuilder();
         for (int i = 0; i < list.Length; i++)
         {
-            sb.Append(list[i].ToString());
+            if (list[i] == null)
+            {
+                sb.Append("null");
+            }
+            else
+            {
+                sb.Append(list[i].ToString());
+            }
             sb.Append(' ');
         }
         Debug.Log(sb.ToString());

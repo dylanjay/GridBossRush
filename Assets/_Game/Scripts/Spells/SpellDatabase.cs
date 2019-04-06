@@ -19,7 +19,7 @@ public class SpellDatabase : Singleton<SpellDatabase>
         spellDict.Clear();
         for (int i = 0; i < spellList.spells.Count; i++)
         {
-            spellDict.Add(spellList.spells[i].name, spellList.spells[i]);
+            spellDict.Add(spellList.spells[i].name.ToLower(), spellList.spells[i]);
         }
     }
 
@@ -30,6 +30,7 @@ public class SpellDatabase : Singleton<SpellDatabase>
             FillDict();
         }
 
+        name = name.ToLower();
         if (!spellDict.ContainsKey(name))
         {
             Debug.LogError("Spell does not exist in database");

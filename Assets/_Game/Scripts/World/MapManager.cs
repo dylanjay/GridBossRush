@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MapManager : Singleton<MapManager>
 {
@@ -10,7 +8,7 @@ public class MapManager : Singleton<MapManager>
     [System.NonSerialized]
     public GridMap currentMap;
 
-    void Awake()
+    protected override void Awake()
     {
         //Random Map
         int mapToLoad = Random.Range(0, gridMaps.Length);
