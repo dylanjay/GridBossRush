@@ -40,6 +40,8 @@ public class GridMap : MonoBehaviour
 
     int Convert2Dto1D(int row, int column)
     {
+        row = Mathf.Clamp(row, 0, HEIGHT - 1);
+        column = Mathf.Clamp(column, 0, WIDTH - 1);
         return row * WIDTH + column;
     }
 }
