@@ -25,14 +25,13 @@ public class SpellDatabase : Singleton<SpellDatabase>
         Debug.Log("Spells");
         for (int i = 0; i < spellList.spells.Count; i++)
         {
-            spellDict.Add(spellList.spells[i].spellName.ToLower(), spellList.spells[i]);
-            TWDebug.Log(spellList.spells[i].name, ":", spellList.spells[i].spellName.ToLower());
+            spellDict.Add(spellList.spells[i].spellName, spellList.spells[i]);
+            TWDebug.Log(spellList.spells[i].name, ":", spellList.spells[i].spellName);
         }
     }
 
     public Spell Get(string name)
     {
-        name = name.ToLower();
         if (!spellDict.ContainsKey(name))
         {
             return null;
