@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[CreateAssetMenu(fileName = "Teleport", menuName = "Spells/Teleport", order = 2)]
 public class Teleport : Spell
-{
+{ 
     public Vector2 location;
 
     public override void Activate()
@@ -12,5 +11,6 @@ public class Teleport : Spell
         Player.instance.GetComponent<PlayerLocation>().x = Mathf.Clamp(Player.instance.GetComponent<PlayerLocation>().x + (int)location.x, 0, GridMap.HEIGHT - 1);
         Player.instance.GetComponent<PlayerLocation>().y = Mathf.Clamp(Player.instance.GetComponent<PlayerLocation>().y + (int)location.y, 0, GridMap.WIDTH - 1);
         Player.instance.transform.position = MapManager.instance.currentMap.GetTilePosition(Player.instance.GetComponent<PlayerLocation>().x, Player.instance.GetComponent<PlayerLocation>().y);
+        Destroy(gameObject);
     }
 }

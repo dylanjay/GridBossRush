@@ -12,6 +12,12 @@ public class Enemy : MonoBehaviour
         yield return null;
         yield return null;
         transform.position = MapManager.instance.currentMap.GetTilePosition(row, column);
+        GetComponent<DeathHandler>().OnDieEvent += Die;
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
     }
 
     float movementDelay = 1.5f;

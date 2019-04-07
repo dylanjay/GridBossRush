@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class SpellDatabase : Singleton<SpellDatabase>
@@ -7,7 +6,7 @@ public class SpellDatabase : Singleton<SpellDatabase>
     [SerializeField]
     SpellList spellList;
 
-    Dictionary<string, Spell> spellDict = new Dictionary<string, Spell>();
+    Dictionary<string, SpellData> spellDict = new Dictionary<string, SpellData>();
 
     void Start()
     {
@@ -30,7 +29,7 @@ public class SpellDatabase : Singleton<SpellDatabase>
         }
     }
 
-    public Spell Get(string name)
+    public SpellData Get(string name)
     {
         if (!spellDict.ContainsKey(name))
         {

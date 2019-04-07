@@ -51,10 +51,10 @@ public class Console : MonoBehaviour
 
     void CastSpell(string spellName)
     {
-        Spell spell = SpellDatabase.instance.Get(spellName);
-        if (spell != null)
+        SpellData spellData = SpellDatabase.instance.Get(spellName);
+        if (spellData != null)
         {
-            TWDebug.Log("Cast", spell.name);
+            Spell spell = Instantiate(spellData.prefab).GetComponent<Spell>();
             spell.Activate();
         }
     }

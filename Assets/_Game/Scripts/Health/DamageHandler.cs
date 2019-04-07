@@ -13,5 +13,14 @@ public class DamageHandler : MonoBehaviour
     public void DoDamage(int damage)
     {
         health.currentHealth = (int)Mathf.Clamp(health.currentHealth - damage, 0f, health.maxHealth);
+        TWDebug.Log("Current Health", health.currentHealth);
+        if (health.currentHealth == 0)
+        {
+            DeathHandler deathHandler = GetComponent<DeathHandler>();
+            if (deathHandler != null)
+            {
+                deathHandler.Die();
+            }
+        }
     }
 }

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "SpellList", menuName = "Spells/SpellList", order = 0)]
+[CreateAssetMenu(fileName = "SpellList", menuName = "Spells/SpellList", order = 1)]
 public class SpellList : ScriptableObject
 {
-    public List<Spell> spells = new List<Spell>();
+    public List<SpellData> spells;
 }

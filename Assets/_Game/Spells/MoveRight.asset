@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e800a54d3b763a4d9fe4f353784aae5, type: 3}
-  m_Name: Fireball
+  m_Name: MoveRight
   m_EditorClassIdentifier: 
-  spellName: fire
-  prefab: {fileID: 4552629912825614288, guid: cd40737a03a92614dbf35343525ea976, type: 3}
+  spellName: F
+  prefab: {fileID: 7472162393978635683, guid: 46ed5875de9ac9a46bfc0c1ffd51b5ba, type: 3}
