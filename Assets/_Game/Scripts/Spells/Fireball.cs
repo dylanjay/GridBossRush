@@ -1,23 +1,33 @@
 ﻿using UnityEngine;
 
-public class Fireball : Spell
+public class Fireball : MonoBehaviour
 {
     Animator animator;
 
-    public int damage;
-    public Vector2 startOffset;
-    public Vector2 direction;
-    public float speed;
-    public LayerMask hitLayer;
+    int damage;
+    LayerMask hitLayer;
+
+    Vector2 direction;
+    float speed;
 
     void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    public override void Activate()
+    void Update()
     {
-        transform.position = Player.instance.transform.position + (Vector3)startOffset + Vector3.up * Player.instance.GetComponent<BoxCollider2D>().size.y / 2;
+        GetComponent<Rigidbody2D>().AddForce(direction.normalized * speed);
+        Debug.Log(direction + " " + speed + " " + GetComponent<Rigidbody2D>().velocity);
+    }
+
+    public void Initialize(int damage, Vector2 direction, float speed, LayerMask hitLayer)
+    {
+        this.damage = damage;
+        this.hitLayer = hitLayer;
+        this.direction = direction;
+        this.speed = speed;
+        Debug.Log(this.speed + " " + speed);
         GetComponent<Rigidbody2D>().velocity = direction.normalized * speed;
     }
 

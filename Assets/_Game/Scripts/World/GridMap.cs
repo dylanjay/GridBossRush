@@ -65,6 +65,11 @@ public class GridMap : MonoBehaviour
     public GridTile Move(GridTile from, int x, int y)
     {
         GridTile to = GetTile(x, y);
+        if (!to.moveable)
+        {
+            return from;
+        }
+
         if (to != from)
         {
             to.Enter();

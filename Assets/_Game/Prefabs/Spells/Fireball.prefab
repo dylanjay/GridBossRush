@@ -132,7 +132,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 4552629912825614288}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ad11648bf2e530b4cbb2a44b6be1c29f, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -151,10 +151,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70aaee3727407854a949fa42b53ed13a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
-  startOffset: {x: 0.4, y: 0}
-  direction: {x: 5, y: 0}
-  speed: 5
-  hitLayer:
-    serializedVersion: 2
-    m_Bits: 1024

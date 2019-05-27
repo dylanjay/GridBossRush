@@ -15,7 +15,7 @@ public class PlayerLocation : MonoBehaviour
 
     public void Move(int x, int y)
     {
-        tile = MapManager.instance.currentMap.Move(tile, tile.x + x, tile.y + y);
+        tile = MapManager.instance.currentMap.Move(tile, x, y);
         transform.position = tile.transform.position;
     }
 }

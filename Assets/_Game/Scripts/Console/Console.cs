@@ -3,8 +3,15 @@ using UnityEngine.UI;
 
 public class Console : MonoBehaviour
 {
+    PlayerSpellCaster spellCaster;
+
     [SerializeField]
     Text textUI;
+
+    void Start()
+    {
+        spellCaster = Player.instance.GetComponent<PlayerSpellCaster>();
+    }
 
     void Update()
     {
@@ -51,11 +58,6 @@ public class Console : MonoBehaviour
 
     void CastSpell(string spellName)
     {
-        SpellData spellData = SpellDatabase.instance.Get(spellName);
-        if (spellData != null)
-        {
-            Spell spell = Instantiate(spellData.prefab).GetComponent<Spell>();
-            spell.Activate();
-        }
+        spellCaster.CastSpell(spellName);
     }
 }
