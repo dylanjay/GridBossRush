@@ -9,13 +9,13 @@ public class PlayerLocation : MonoBehaviour
 
     void Start()
     {
-        tile = MapManager.instance.currentMap.Move((int)startPos.x, (int)startPos.y);
+        tile = MapManager.instance.currentMap.Move(GridSide.Left, (int)startPos.x, (int)startPos.y);
         transform.position = tile.transform.position;
     }
 
     public void Move(int x, int y)
     {
-        tile = MapManager.instance.currentMap.Move(tile, x, y);
+        tile = MapManager.instance.currentMap.Move(GridSide.Left, tile, x, y);
         transform.position = tile.transform.position;
     }
 }

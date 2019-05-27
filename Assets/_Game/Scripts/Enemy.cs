@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     {
         yield return null;
         yield return null;
-        tile = MapManager.instance.currentMap.Move(column, row);
+        tile = MapManager.instance.currentMap.Move(GridSide.Right, column, row);
         transform.position = tile.transform.position;
         GetComponent<DeathHandler>().OnDieEvent += Die;
     }
@@ -80,7 +80,7 @@ public class Enemy : MonoBehaviour
             }
             row = nextRow;
             column = nextColumn;
-            tile = MapManager.instance.currentMap.Move(tile, column, row);
+            tile = MapManager.instance.currentMap.Move(GridSide.Right, tile, column, row);
             transform.position = tile.transform.position;
         }
     }

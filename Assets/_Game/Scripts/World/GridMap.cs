@@ -8,7 +8,8 @@ public enum GridSide
 
 public class GridMap : MonoBehaviour
 {
-    GridTile[][] grid;
+    GridTile[][] leftGrid;
+    GridTile[][] rightGrid;
 
     public string MapName;
 
@@ -19,7 +20,8 @@ public class GridMap : MonoBehaviour
 
     //TODO either a dictionary holding pieces in each grid spot or a reference to the actors in the grid spots
 
-    public const int width = 6;
+    public const int numGrids = 2;
+    public const int width = 3;
     public const int height = 3;
 
     void Awake()
@@ -30,41 +32,65 @@ public class GridMap : MonoBehaviour
             return;
         }
 
-        grid = new GridTile[width][];
+        leftGrid = new GridTile[width][];
+        rightGrid = new GridTile[width][]; 
         FillGrid();
     }
 
     private void FillGrid()
     {
         int tileIndex = 0;
-        for (int i = 0; i < width; i++)
+        for (int gridNum = 0; gridNum < numGrids; gridNum++)
         {
-            grid[i] = new GridTile[height];
-            for (int j = 0; j < height; j++)
+            for (int i = 0; i < width; i++)
             {
-                grid[i][j] = gridTileGos[tileIndex++].GetComponent<GridTile>();
-                grid[i][j].x = i;
-                grid[i][j].y = j;
+                if (gridNum == 0)
+                {
+                    leftGrid[i] = new GridTile[height];
+                    for (int j = 0; j < height; j++)
+                    {
+                        leftGrid[i][j] = gridTileGos[tileIndex++].GetComponent<GridTile>();
+                        leftGrid[i][j].x = i;
+                        leftGrid[i][j].y = j;
+                    }
+                }
+                else if (gridNum == 1)
+                {
+                    rightGrid[i] = new GridTile[height];
+                    for (int j = 0; j < height; j++)
+                    {
+                        rightGrid[i][j] = gridTileGos[tileIndex++].GetComponent<GridTile>();
+                        rightGrid[i][j].x = i;
+                        rightGrid[i][j].y = j;
+                    }
+                }
             }
         }
     }
 
-    public GridTile GetTile(/*GridSide side, */int x, int y)
+    public GridTile GetTile(GridSide side, int x, int y)
     {
         x = Mathf.Clamp(x, 0, width - 1);
         y = Mathf.Clamp(y, 0, height - 1);
-        return grid[x][y];
+        if (side == GridSide.Left)
+        {
+            return leftGrid[x][y];
+        }
+        else
+        {
+            return rightGrid[x][y];
+        }
     }
 
-    public GridTile Move(int x, int y)
+    public GridTile Move(GridSide side, int x, int y)
     {
-        GridTile to = GetTile(x, y);
+        GridTile to = GetTile(side, x, y);
         return to;
     }
 
-    public GridTile Move(GridTile from, int x, int y)
+    public GridTile Move(GridSide side, GridTile from, int x, int y)
     {
-        GridTile to = GetTile(x, y);
+        GridTile to = GetTile(side, x, y);
         if (!to.moveable)
         {
             return from;
