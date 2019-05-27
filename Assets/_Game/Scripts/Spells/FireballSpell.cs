@@ -19,6 +19,6 @@ public class FireballSpell : Spell
     public override void Activate()
     {
         GameObject fireball = ObjectPoolManager.Spawn(fireballPrefab, Player.instance.transform.position + (Vector3)startOffset + Vector3.up * Player.instance.GetComponent<BoxCollider2D>().size.y / 2);
-        fireballPrefab.GetComponent<Fireball>().Initialize(damage, direction, speed, hitLayer);
+        fireball.GetComponent<Fireball>().Initialize(damage, direction, speed, hitLayer);
     }
 }

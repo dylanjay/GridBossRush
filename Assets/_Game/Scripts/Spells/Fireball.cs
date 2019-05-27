@@ -7,27 +7,15 @@ public class Fireball : MonoBehaviour
     int damage;
     LayerMask hitLayer;
 
-    Vector2 direction;
-    float speed;
-
     void Start()
     {
         animator = GetComponent<Animator>();
-    }
-
-    void Update()
-    {
-        GetComponent<Rigidbody2D>().AddForce(direction.normalized * speed);
-        Debug.Log(direction + " " + speed + " " + GetComponent<Rigidbody2D>().velocity);
     }
 
     public void Initialize(int damage, Vector2 direction, float speed, LayerMask hitLayer)
     {
         this.damage = damage;
         this.hitLayer = hitLayer;
-        this.direction = direction;
-        this.speed = speed;
-        Debug.Log(this.speed + " " + speed);
         GetComponent<Rigidbody2D>().velocity = direction.normalized * speed;
     }
 

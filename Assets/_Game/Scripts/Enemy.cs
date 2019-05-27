@@ -6,12 +6,14 @@ public class Enemy : MonoBehaviour
 {
     public int row = 1;
     public int column = 3;
+    GridTile tile;
 
     IEnumerator Start()
     {
         yield return null;
         yield return null;
-        transform.position = MapManager.instance.currentMap.GetTile(row, column).transform.position;
+        tile = MapManager.instance.currentMap.Move(column, row);
+        transform.position = tile.transform.position;
         GetComponent<DeathHandler>().OnDieEvent += Die;
     }
 
@@ -78,7 +80,8 @@ public class Enemy : MonoBehaviour
             }
             row = nextRow;
             column = nextColumn;
-            transform.position = MapManager.instance.currentMap.GetTile(row, column).transform.position;
+            tile = MapManager.instance.currentMap.Move(tile, column, row);
+            transform.position = tile.transform.position;
         }
     }
 }

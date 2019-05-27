@@ -9,7 +9,7 @@ public class ProjectileDestroyer : MonoBehaviour
         if (1 << collision.gameObject.layer == projectileLayer.value)
         {
             // TODO : convert to pooling
-            Destroy(collision.gameObject);
+            ObjectPoolManager.Recycle(collision.gameObject);
         }
     }
 }
