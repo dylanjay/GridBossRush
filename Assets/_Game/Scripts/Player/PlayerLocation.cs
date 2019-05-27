@@ -1,20 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerLocation : MonoBehaviour
 {
-    public int x;
-    public int y;
+    [HideInInspector]
+    public GridTile tile;
+
+    public Vector2 startPos;
 
     void Start()
     {
-        transform.position = MapManager.instance.currentMap.GetTilePosition(x, y);
+        tile = MapManager.instance.currentMap.Move((int)startPos.x, (int)startPos.y);
+        transform.position = tile.transform.position;
     }
 
-    public void Set(int x, int y)
+    public void Move(int x, int y)
     {
-        this.x = x;
-        this.y = y;
+        tile = MapManager.instance.currentMap.Move(tile, tile.x + x, tile.y + y);
+        transform.position = tile.transform.position;
     }
 }

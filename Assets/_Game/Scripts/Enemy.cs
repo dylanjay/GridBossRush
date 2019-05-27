@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     {
         yield return null;
         yield return null;
-        transform.position = MapManager.instance.currentMap.GetTilePosition(row, column);
+        transform.position = MapManager.instance.currentMap.GetTile(row, column).transform.position;
         GetComponent<DeathHandler>().OnDieEvent += Die;
     }
 
@@ -47,7 +47,7 @@ public class Enemy : MonoBehaviour
                     }
                     else //Right
                     {
-                        if (column + 1 < GridMap.WIDTH)
+                        if (column + 1 < GridMap.width)
                         {
                             nextColumn = column + 1;
                             nextRow = row;
@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
                     }
                     else //Down
                     {
-                        if (row + 1 < GridMap.HEIGHT)
+                        if (row + 1 < GridMap.height)
                         {
                             nextColumn = column;
                             nextRow = row + 1;
@@ -78,7 +78,7 @@ public class Enemy : MonoBehaviour
             }
             row = nextRow;
             column = nextColumn;
-            transform.position = MapManager.instance.currentMap.GetTilePosition(row, column);
+            transform.position = MapManager.instance.currentMap.GetTile(row, column).transform.position;
         }
     }
 }
